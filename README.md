@@ -8,38 +8,23 @@ Este proyecto consiste en una aplicación Node.js con Express y Puppeteer para o
 
    ```bash
    git clone https://github.com/DanielCodexp/webScrapingAirb.git
-   cd tu-repo
+   cd webScrapingAirb
 Instala las dependencias:
-
-bash
-Copy code
 npm install
 Uso
 Servidor API
 Inicia el servidor API:
-
-bash
-Copy code
 npm start
 El servidor estará disponible en http://localhost:3000.
 
 Para obtener las URLs de las fotos de una propiedad de Airbnb, realiza una solicitud GET a:
-
-bash
-Copy code
 http://localhost:3000/obtenerFotosAirbnb/:roomId
 Reemplaza :roomId con el ID de la habitación en Airbnb.
 
 Frontend React
 Navega al directorio del frontend:
-
-bash
-Copy code
 cd frontend
 Inicia la aplicación React:
-
-bash
-Copy code
 npm start
 La aplicación estará disponible en http://localhost:3001.
 
